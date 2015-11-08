@@ -6,7 +6,7 @@ iOS:7,8
 AppleWatch:38mm 42mm" buttons {"iOS", "AppleWatch", "ƒLƒƒƒ“ƒZƒ‹"}
 set selectType to button returned of result
 if selectType = "iOS" then
-	set sizes to {58, 76, 87, 80, 120, 152, 180}
+	set sizes to {29, 40, 58, 60, 76, 87, 80, 120, 152, 180}
 else if selectType = "AppleWatch" then
 	set sizes to {48, 55, 80, 88, 172, 196}
 else
